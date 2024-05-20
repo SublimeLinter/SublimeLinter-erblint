@@ -1,10 +1,10 @@
-from SublimeLinter.lint import util, Linter
+from SublimeLinter.lint import util, RubyLinter
 
 
-class ERBLint(Linter):
+class ERBLint(RubyLinter):
     """A linter for Embedded Ruby files (.erb)
 
-    This class extends SublimeLinter.lint.Linter. It defines the most basic set
+    This class extends SublimeLinter.lint.RubyLinter. It defines the most basic set
     of configs for running the 'out of the box' version of `erblint`
 
     An example output of `erblint ~/path/to/file.erb is:
