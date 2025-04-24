@@ -1,5 +1,5 @@
 SublimeLinter-erblint
-================================
+=====================
 
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [erblint](https://github.com/Shopify/erb-lint). It will be used with files that have the “erb” syntax.
 
