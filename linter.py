@@ -27,7 +27,7 @@ class ERBLint(RubyLinter):
     ignore the extra warning (when not passing a config file to `erblint`) we
     set `error_stream` to `util.STREAM_STDOUT`.
     """
-    cmd = 'erblint ${args} ${temp_file}'
+    cmd = 'erb_lint ${args} ${temp_file}'
     regex = (
         r'^(?P<message>.*)\n'
         r'In file: .*:(?P<line>[0-9]+)'
